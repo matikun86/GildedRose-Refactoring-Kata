@@ -37,8 +37,6 @@ export class GildedRose {
     }
     
     if (item.name === PRODUCTS.BACKSTAGE_PASSES_TAFKAL80ETC) {
-      console.log("is backstage")
-      console.log("item.sellIn", item.sellIn)
       if (item.sellIn > 10) {
         return item.quality + 1;
       }
